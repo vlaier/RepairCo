@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Piotr Zieliński" />
+    <title>First porfolio website</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">
+        <img src="images/logo.png" alt="" />
+        <h3>RepairCo</h3>
+      </div>
+      <div class="navigation">
+        <ul class="nav-items">
+          <li class="nav-item"><a href="" class="nav-link">About us</a></li>
+          <li class="nav-item"><a href="#info" class="nav-link">Info</a></li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Testimonials</a>
+          </li>
+          <li class="nav-item"><a href="" class="nav-link">Footer</a></li>
+        </ul>
+      </div>
+      <input class="search" id="searchInput" placeholder="Szukaj" />
+    </nav>
+    <section class="hero">
+      <div class="hero-img">
+        <img src="images/hero-image.jpg" alt="" />
+      </div>
+      <div class="hero-content">
+        <h2 class="section-title hero-title">Phone repair</h2>
+        <p class="section-subtitle hero-subtitle">
+          Give your phone to us and we will offer you free estimation
+        </p>
+        <button class="btn btn-light">Contact info</button>
+        <button class="btn btn-dark">Find out more</button>
+      </div>
+    </section>
+    <!-- Info Section -->
+    <section class="info" id="info">
+      <div class="container info-container">
+        <div class="cards-container">
+          <!-- First card -->
+          <div class="card-item">
+            <div class="info-card card">
+              <div class="card-img">
+                <img src="images/image1.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <div class="card-text">
+                  <h3 class="card-title">Repairs in 48 hours</h3>
+                  <p class="card-subtitle">
+                    We know that your device is important for you that's why we
+                    will repair it quickly
+                  </p>
+                </div>
+
+                <div class="card-btn">
+                  <a href="#" class="btn btn-light">Sprawdź cenę online</a>
+
+                  <a href="#" class="btn btn-dark"> Dowiedz się więcej </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Second card -->
+
+          <div class="card-item">
+            <div class="info-card card">
+              <div class="card-img">
+                <img src="images/image2.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <div class="card-text">
+                  <h3 class="card-title">Best prices</h3>
+                  <p class="card-subtitle">
+                    If you find cheaper offer we will match the price
+                  </p>
+                </div>
+                <div class="card-btn">
+                  <a href="#" class="btn btn-light">Sprawdź cenę online</a>
+
+                  <a href="#" class="btn btn-dark"> Dowiedz się więcej </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Third card -->
+
+          <div class="card-item">
+            <div class="info-card card">
+              <div class="card-img">
+                <img src="images/image3.jpg" alt="" />
+              </div>
+              <div class="card-content">
+                <div class="card-text">
+                  <h3 class="card-title">1 year warranty</h3>
+                  <p class="card-subtitle">
+                    We offer one year warranty for every repair.
+                  </p>
+                </div>
+                <div class="card-btn">
+                  <a href="#" class="btn btn-light">Sprawdź cenę online</a>
+
+                  <a href="#" class="btn btn-dark"> Dowiedz się więcej </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="more">
+          <button class="btn btn-more" id="show-more-btn">\/</button>Pozostałe
+          produkty
+          <div class="hidden more-info" id="additional-info">
+            <div class="flex-container more-info-container">
+              <div class="flex-container column">
+                <h3>Tytuł</h3>
+                <ul>
+                  <li>Tekst 1</li>
+                  <li>Tekst 2</li>
+                  <li>Tekst 3</li>
+                </ul>
+              </div>
+              <div class="flex-container column">
+                <h3>Tytuł</h3>
+                <ul>
+                  <li>Tekst 1</li>
+                  <li>Tekst 2</li>
+                  <li>Tekst 3</li>
+                </ul>
+              </div>
+              <div class="flex-container column">
+                <h3>Tytuł</h3>
+                <ul>
+                  <li>Tekst 1</li>
+                  <li>Tekst 2</li>
+                  <li>Tekst 3</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer"></footer>
+  </body>
+</html>

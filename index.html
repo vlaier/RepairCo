@@ -16,24 +16,30 @@
   <body>
     <!-- Navbar -->
     <nav class="navbar">
-      <div class="logo">
-        <img src="images/logo.png" alt="" />
-        <h3>RepairCo</h3>
-      </div>
-      <button class="hamburger-menu" id="hamburger-menu">
-        <span class="bar"></span>
-        <span class="bar"></span>
-        <span class="bar"></span>
-      </button>
-      <div class="nav-links" id="nav-links">
-        <ul>
-          <li class="nav-link"><a href="#">First Section</a></li>
-          <li class="nav-link"><a href="#">irst Section</a></li>
-          <li class="nav-link"><a href="#">irst Section</a></li>
-          <li class="nav-link"><a href="#">irst Section</a></li>
-        </ul>
+      <div class="container">
+        <div class="nav-menu">
+          <div class="logo">
+            <img src="images/logo.png" alt="logo" />
+            <h3>RepairCo</h3>
+          </div>
+          <button class="hamburger-menu" id="hamburger-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+        </div>
+
+        <div class="menu-content" id="menu-content">
+          <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Testimonials</a></li>
+          </ul>
+        </div>
       </div>
     </nav>
+    <!-- Hero Section -->
     <section class="hero">
       <div class="hero-img">
         <img src="images/hero-image.jpg" alt="" />
@@ -131,41 +137,76 @@
       </div>
     </section>
     <section class="grid-section" id="services">
-      <div class="grid-container container services-container">
-        <div class="grid-box">
-          <div class="content">
-            <i class="bi bi-device-hdd"></i>
-            <p>Data recovery</p>
+      <div class="container">
+        <h2>Services</h2>
+        <div class="grid-container services-container">
+          <div class="grid-box">
+            <div class="content">
+              <i class="bi bi-device-hdd"></i>
+              <p>Data recovery</p>
+            </div>
           </div>
-        </div>
-        <div class="grid-box">
-          <div class="content">
-            <i class="bi bi-device-hdd"></i>
+          <div class="grid-box">
+            <div class="content">
+              <i class="bi bi-device-hdd"></i>
+              <p>Data recovery</p>
+            </div>
           </div>
-        </div>
-        <div class="grid-box">
-          <div class="content">
-            <i class="bi bi-device-hdd"></i>
+          <div class="grid-box">
+            <div class="content">
+              <i class="bi bi-device-hdd"></i>
+              <p>Data recovery</p>
+            </div>
           </div>
-        </div>
-        <div class="grid-box">
-          <div class="content">
-            <i class="bi bi-device-hdd"></i>
+          <div class="grid-box">
+            <div class="content">
+              <i class="bi bi-device-hdd"></i>
+              <p>Data recovery</p>
+            </div>
           </div>
-        </div>
-        <div class="grid-box">
-          <div class="content">
-            <i class="bi bi-device-hdd"></i>
+          <div class="grid-box">
+            <div class="content">
+              <i class="bi bi-device-hdd"></i>
+              <p>Data recovery</p>
+            </div>
           </div>
-        </div>
-        <div class="grid-box">
-          <div class="content">
-            <i class="bi bi-device-hdd"></i>
+          <div class="grid-box">
+            <div class="content">
+              <i class="bi bi-device-hdd"></i>
+              <p>Data recovery</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Footer -->
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container flex-container footer-boxes">
+        <div class="footer-box">
+          <h3 class="footer-box-title">RepairCo</h3>
+          <ul class="footer-box-list">
+            <li><a href="">About us</a></li>
+            <li><a href="">Newsletter</a></li>
+            <li><a href="">Customer Support</a></li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <h3 class="footer-box-title">Stores</h3>
+          <ul class="footer-box-list">
+            <li><a href="">America</a></li>
+            <li><a href="">Europe</a></li>
+            <li><a href="">Asia</a></li>
+          </ul>
+        </div>
+        <div class="footer-box">
+          <h3 class="footer-box-title">Services</h3>
+          <ul class="footer-box-list">
+            <li><a href="">Laptop Repair</a></li>
+            <li><a href="">Smartphone Repair</a></li>
+            <li><a href="">Data Recovery</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

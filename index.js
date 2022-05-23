@@ -2,7 +2,7 @@ const additionalInfo = document.getElementById("additional-info");
 const showMore = document.getElementById("show-more");
 const downArrow = document.getElementById("caret-down");
 const hamburgerButton = document.getElementById("hamburger-menu");
-const navLinks = document.getElementById("nav-links");
+const navLinks = document.getElementById("menu-content");
 showMore.addEventListener("click", () => {
   let p = showMore.children[1];
   if (p.textContent === "Show More") {
